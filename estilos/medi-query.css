@@ -18,9 +18,15 @@
         float: left; 
         width: 30%; 
         height: 100%;
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
     }  
     section#login > div#formulario{ 
-        padding: 10px;
+
+        flex: auto;
     }
 
 } 
